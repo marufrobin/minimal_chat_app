@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minimal_chat_app/pages/login_page.dart';
+import 'package:minimal_chat_app/pages/splash_page.dart';
 import 'package:minimal_chat_app/themes/light_theme.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Minimal ChitChat',
       theme: lightMode,
-      home: const LoginPage(),
+      home: const SplashScreen(),
     );
   }
 }
